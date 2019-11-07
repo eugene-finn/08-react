@@ -1,10 +1,13 @@
-function component() {
-  const element = document.createElement('div');
+import _ from 'lodash';
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  function component() {
+    const element = document.createElement('div');
 
-  return element;
-}
+    // Lodash, currently included via a script, is required for this line to work
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-document.body.appendChild(component());
+    return element;
+  }
+
+  document.body.appendChild(component());
+

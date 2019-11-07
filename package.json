@@ -1,7 +1,8 @@
 {
   "name": "08 React",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Webpack babel TypeScript JSX",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

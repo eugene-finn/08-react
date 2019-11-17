@@ -6,7 +6,7 @@
   "readme": "README.md",
   "main": "index.js",
   "scripts": {
-    "start": "npx webpack --mode development --open --hot",
+    "start": "npx webpack-dev-server --mode development --open --hot",
     "build": "npx webpack --mode production"
   },
   "author": "ok",
